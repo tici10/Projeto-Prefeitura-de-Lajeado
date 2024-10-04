@@ -5,7 +5,7 @@
 Desenvolver uma plataforma digital integrada que centralize a gestão de serviços municipais e a gestão da Prefeitura de Lajeado, com o intuito de melhorar a eficiência dos processos administrativos, aumentar a transparência e promover uma experiência mais satisfatória para os cidadãos ao interagirem com os serviços públicos.
 
 >### Objetivos
-#### Desenvolvimeto do projeto
+#### De forma geral
 
 + Criar um Portal de Serviços para os cidadãos que permita o acesso a informações, a realização de solicitações e o acompanhamento do andamento dos processos administrativos de forma fácil e intuitiva.
 
