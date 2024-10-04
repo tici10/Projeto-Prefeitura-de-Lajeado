@@ -18,3 +18,9 @@ Desenvolver uma plataforma digital integrada que centralize a gestão de serviç
 +	Capacitar os servidores municipais para o uso eficiente da nova plataforma, assegurando que todos estejam aptos a utilizar as novas ferramentas de gestão e a prestar um atendimento de qualidade aos cidadãos.
 
 +	Promover a inclusão digital entre os cidadãos de Lajeado, oferecendo suporte e orientação para o uso da nova plataforma, especialmente para aqueles que têm menos familiaridade com tecnologias digitais. 
+
+>### Desenvolvimento do Projeto
+
+A fim de melhor organizar a estrutura para o projeto, foi elaborada a Estrutura Analítica do Projeto (E.A.P) para facilitar o acompanhamento das etapas do projeto.
+
+![E A P](https://github.com/user-attachments/assets/fab6a383-a531-4549-a0f4-44b4e016638f)
