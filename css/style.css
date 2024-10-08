@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.top-header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 div{
+    text-align: center;
+}
+
+.container img, .box1 img {
+    vertical-align: middle; /* Pode ser top, bottom, middle */
+}
+
+.top-header{
+    display: block;
+    background: #00F;
+    color: #FFF;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+
