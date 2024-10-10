@@ -6,32 +6,59 @@ body{
     font-family: 'Monserrat', sans-serif;
 }
 
-.top-header{
+header{
     height: 200px;
     padding: 20px 0;
 }
 
-.container img{
+.container{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.box1 div{
-    text-align: center;
-}
-
-.container img, .box1 img {
-    vertical-align: middle; /* Pode ser top, bottom, middle */
-}
-
 .top-header{
     display: block;
-    background: #00F;
+    background: #FFF;
     color: #FFF;
-    margin: 10px;
-    padding: 10px;
+    margin;
+    padding: 20px;
+    flex-direction: row;
     border: 1px solid #000;
+}
+
+.logo_home img{
+    /*display: block;
+    margin-left: 50px;
+    margin-right: 50PX;*/
+
+    position: absolute; /* Posição fixa dentro do header */
+    top: 0;  /* Alinhado ao topo */
+    left: 0; /* Alinhado à esquerda */
+    margin: 10px; 
+   
+}
+
+.perfil{
+    position: absolute; /* Posição fixa dentro do header */
+    top: 0;  /* Alinhado ao topo */
+    right: 0; /* Alinhado à esquerda */
+    margin: 10px; / 
+}
+
+.header-search{
+    top: 0;
+    right: 50;
+    left: 50;
+}
+
+.input{
+    width: 50vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
