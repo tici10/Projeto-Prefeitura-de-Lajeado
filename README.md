@@ -24,3 +24,6 @@ Desenvolver uma plataforma digital integrada que centralize a gestão de serviç
 A fim de melhor organizar a estrutura para o projeto, foi elaborada a Estrutura Analítica do Projeto (E.A.P) para facilitar o acompanhamento das etapas do projeto.
 
 ![E A P](https://github.com/user-attachments/assets/fab6a383-a531-4549-a0f4-44b4e016638f)
+
++ A fase de iniciação do projeto é dedicada a entender o contexto e a problemática do projeto a fim de as necessidades exigidas para o desenvolvimento do portal de serviços sejam.
++ A fase de planejamento é onde as atividades necessárias para o desenvolvimento do projeto serão elaboradas no documento de “Plano de Ação”. Bem como, será realizada a documentação dos requisitos necessários ao portal de serviços de acordo com o entendimento das exigências para a execução do projeto.
