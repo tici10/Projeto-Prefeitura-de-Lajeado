@@ -17,48 +17,42 @@ header{
     margin-right: auto;
 }
 
-.top-header{
-    display: block;
-    background: #FFF;
-    color: #FFF;
-    margin;
-    padding: 20px;
-    flex-direction: row;
-    border: 1px solid #000;
-}
-
 .logo_home img{
-    /*display: block;
-    margin-left: 50px;
-    margin-right: 50PX;*/
-
     position: absolute; /* Posição fixa dentro do header */
     top: 0;  /* Alinhado ao topo */
     left: 0; /* Alinhado à esquerda */
     margin: 10px; 
-   
 }
 
 .perfil{
     position: absolute; /* Posição fixa dentro do header */
-    top: 0;  /* Alinhado ao topo */
-    right: 0; /* Alinhado à esquerda */
-    margin: 10px; / 
+    margin-top: 2%;  /* Alinhado ao topo */
+    right: 0; /* Alinhado à direita */
+    margin: 10px; 
 }
 
 .header-search{
-    top: 0;
-    right: 50;
-    left: 50;
+    position: absolute;
+    margin-top: 2%;
+    left: 50%;
+    transform: translateX(-60%);
+
 }
 
-.input{
-    width: 50vw;
-    height: 10vw;
+.body_header{
+    position: absolute;
     display: flex;
-    flex-direction: row;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
+    
 }
 
+.box1 div{
+    text-align: center;
+}
+
+.container img, .box1 img {
+    vertical-align: middle; /* Pode ser top, bottom, middle */
+}
 
