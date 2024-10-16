@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,7 @@ header{
 
 .logo_home img{
     position: absolute; /* Posição fixa dentro do header */
-    top: 0;  /* Alinhado ao topo */
+    margin-top: 1%;  /* Alinhado ao topo */
     left: 0; /* Alinhado à esquerda */
     margin: 10px; 
 }
@@ -33,26 +33,48 @@ header{
 
 .header-search{
     position: absolute;
-    margin-top: 2%;
+    margin-top: 3%;
     left: 50%;
     transform: translateX(-60%);
 
 }
 
 .body_header{
-    position: absolute;
     display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    background-color: #1FB857;
+    justify-content: space-around;
     
 }
 
-.box1 div{
-    text-align: center;
+.imagens{
+    display: flex;
+    flex-direction: row;
 }
 
-.container img, .box1 img {
-    vertical-align: middle; /* Pode ser top, bottom, middle */
+.caderneta{
+    display: flex;
+    flex-direction: row;  
+    left: 0; /* Alinhado à esquerda */
+    margin: 10px;
 }
 
+.cidadao{
+    display: flex;
+    flex-direction: row;
+    right: 0; /* Alinhado à direita*/
+    margin: 10px; 
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.indices{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
