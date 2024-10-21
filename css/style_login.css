@@ -5,6 +5,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Monserrat', sans-serif;
     /*background-color: #3F5FCE;*/
+    background-color: #5C81FF;
 }
 
 header{
@@ -12,18 +13,66 @@ header{
     padding: 20px 0;
 }
 
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
 .header-log{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-top: 5%;
-    width: 400px;
+    width: 400px; 
     height: 500px;
-    transform: translateX(140%);
+    transform: translateX(125%);
 }
 
 .container{
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
+    margin-top: 3%;
     width: 400px;
     height: 500px;
-    transform: translateX(160%);
+    font-weight: bold;
+    transform: translateX(145%);
+    color: #F0F2F8;
+}
+
+#inputcpf{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#inputsenha{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#button_log{
+    display: block;
+    width: 30%;
+    height: 30px;
+    color: #3F5FCE;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: translateX(50%);
+}
+
+.linked_line{
+    display: block;
+    flex-direction: row;
+    width: 50%;
+    height: 50px;
+    transform: translateX(20%);
+}
+
+#line{
+    color: #F0F2F8;
 }
