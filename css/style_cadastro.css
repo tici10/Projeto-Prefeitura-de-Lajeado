@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Monserrat', sans-serif;
+    background-color: #5C81FF;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.header-log{
+    /*border: 1px solid black;*/
+    margin-top: 5%;
+    width: 400px; 
+    height: 500px;
+    transform: translateX(125%);
+}
+
+.container{
+    display: block;
+    box-sizing: border-box;
+    margin-top: 3%;
+    width: 400px;
+    height: 500px;
+    font-weight: bold;
+    transform: translateX(145%);
+    color: #F0F2F8;
+}
+
+#inputname{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#inputcpf{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#inputname{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#input_e-mail{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#inputtel{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#inputsenha{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+    background-color: #AEC0FF;
+}
+
+#button_cadas{
+    display: block;
+    width: 30%;
+    height: 30px;
+    color: #3F5FCE;
+    font-weight: bold;
+    background-color: #F0F2F8;
+    border-radius: 10px;
+    border:1px solid #fff ;
+    transform: translateX(50%);
+}
