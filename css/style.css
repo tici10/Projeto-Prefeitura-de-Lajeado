@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
     font-family: 'Monserrat', sans-serif;
 }
 
@@ -74,6 +73,10 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#frase1{
+    margin-top: 30%;
 }
 
 .container2{
