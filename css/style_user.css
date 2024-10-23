@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #fff;
+}
+
+.logo_home{
+    position: absolute; 
+    margin-top: 1%;  
+    left: 0;
+    margin: 10px; 
+}
+
+.header-search{
+    position: absolute;
+    margin-top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+#botao{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.perfil{
+    position: absolute;
+    margin-top: 2%;  
+    right: 0;
+    margin: 10px; 
+}
+
+.dados{
+    position: absolute;
+    padding: 20%;
+    margin-top: -10%;
+    left: -10%;
+}
+
+.informacoes{
+    padding: 15%;
+    margin-left: 300px;
+    vertical-align: 70px;
+    margin-top: -1%;
+
+}
+
+#titulo{
+    font-weight: bold;
+}
+
+#nome{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.e-mail{
+    margin-left: 300px;
+    margin-top: -9%;
+}
+
+#email{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.cpf{
+    margin-top: 9%;
+}
+
+#cpf-number{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.telefone{
+    margin-left: 300px;
+    margin-top: -9%;
+}
+
+#tel{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+
+.editar-p{
+    margin-top: 5%;
+    margin-left: 205px;
+}
+
+#botao2{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
