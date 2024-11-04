@@ -6,14 +6,16 @@
 }
 
 header{
-    height: 200px;
-    padding: 20px 0;
+    height: 110px;
+    padding: 10px 0;
 }
 
 .container{
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
 }
 
 .logo_home img{
@@ -25,15 +27,15 @@ header{
 
 .perfil{
     position: absolute; /* Posição fixa dentro do header */
-    margin-top: 2%;  /* Alinhado ao topo */
+    margin-top: 3%;  /* Alinhado ao topo */
     right: 0; /* Alinhado à direita */
     margin: 10px; 
 }
 
 .header-search{
     position: absolute;
-    margin-top: 3%;
-    left: 50%;
+    margin-top: 2.5%;
+    left: 55%;
     transform: translateX(-60%);
 
 }
@@ -72,6 +74,7 @@ header{
     flex-direction: row;  
     left: 0; /* Alinhado à esquerda */
     margin: 10px;
+    margin-left: -5%;
 }
 
 .cidadao{
@@ -83,13 +86,18 @@ header{
 
 .header-text{
     display: block;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
     color: #fff;
 }
 
 #frase1{
     margin-top: 30%;
+}
+
+#frase2{
+    margin-left: 20%;
+    font-weight: bold;
 }
 
 .container2{
@@ -100,7 +108,37 @@ header{
 }
 
 .indices{
-    padding-top: 30px;
-    width: 50%;
-   justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+#Perfil2{
+    left: 0;
+    margin-left: -170%;
+    margin-top: 15%;
+    text-align: start;
+    color: #3F5FCE;
+    font-weight: bold;
+}
+
+#cidadao{
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 16%;
+    color: #F4B117;
+}
+
+#servidor{
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 16%;
+    color: #3F5FCE;
+}
+
+#empresa{
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 16%;
+    color: #3F5FCE;
 }
