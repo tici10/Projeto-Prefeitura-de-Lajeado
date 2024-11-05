@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+header{
+    height: 110px;
+    padding: 10px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #fff;
+}
+
+.logo_home{
+    position: absolute; 
+    margin-top: 1%;  
+    left: 0;
+    margin: 10px; 
+}
+
+.header-search{
+    position: absolute;
+    margin-top: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.perfil{
+    position: absolute;
+    margin-top: 2.5%;  
+    right: 0;
+    margin: 10px; 
+}
+
+#input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.title{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.info{
+    margin-left: 5%;
+}
+
+.servico{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-self: self-start;
+}
