@@ -41,14 +41,7 @@ header{
 }
 
 #input{
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #000;
-}
-
-#botao{
-    width: 50px;
+    width: 400px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #000;
@@ -100,11 +93,11 @@ header{
     font-weight: bold;
 }
 
-.container2{
+.bloco1{
     display: flex;
     flex-direction: row;
     background-color: white;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 
 .indices{
@@ -115,7 +108,7 @@ header{
 
 #Perfil2{
     left: 0;
-    margin-left: -170%;
+    margin-left: 10%;
     margin-top: 15%;
     text-align: start;
     color: #3F5FCE;
@@ -141,4 +134,176 @@ header{
     margin-left: 50%;
     margin-top: 16%;
     color: #3F5FCE;
+}
+
+.bloco2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px; 
+    text-decoration: none;
+    /*background-color: #2547BC;*/
+    background-color: #102A83;
+    box-shadow: 1px solid #000;
+}
+
+#orgaos{
+    margin-left: 2%;
+    margin-top: 2.5%;
+    text-align: start;
+    font-weight: bold;
+    color: #fff;
+}
+
+#saude{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #F4B117;
+    font-weight: bold;
+}
+
+#educacao{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#administracao{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#financas{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#social{
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#transporte{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#control_interno{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#agricultura{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#cultura{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box2{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box3{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box4{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box5{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box6{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box7{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box8{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box9{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px
 }
