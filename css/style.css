@@ -206,7 +206,7 @@ header{
 #control_interno{
     text-decoration: none;
     margin-left: 3%;
-    margin-top: -2%;
+    margin-top: 1.5%;
     font-weight: bold;
     color: #fff;
 }
@@ -214,7 +214,7 @@ header{
 #agricultura{
     text-decoration: none;
     margin-left: 3%;
-    margin-top: -2%;
+    margin-top: 1.5%;
     font-weight: bold;
     color: #fff;
 }
@@ -222,88 +222,21 @@ header{
 #cultura{
     text-decoration: none;
     margin-left: 3%;
-    margin-top: -2%;
+    margin-top: 1.5%;
     font-weight: bold;
     color: #fff;
 }
 
-.container1{
+.container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 300px;
 }
 
-.box1{
+.box{
     margin-top: 3%;
     border: 1px solid #000 ;
     width: 200px;
     border-radius: 10px;
-}
-
-.box2{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px;
-}
-
-.box3{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px
-}
-
-.container2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.box4{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px;
-}
-
-.box5{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px;
-}
-
-.box6{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px
-}
-
-.container3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.box7{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px;
-}
-
-.box8{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px;
-}
-
-.box9{
-    margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
-    border-radius: 10px
 }
