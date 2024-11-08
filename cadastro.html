@@ -18,7 +18,7 @@
             </div>
         </div>
     </header>
-    <form> 
+    <form>
         <div class="container">
             <div class="input_nome">
                 <label for="name"> Nome Completo: </label>
@@ -57,6 +57,36 @@
 
             <div class="button_log_user">
                 <button type="submit" id="button_cadas">Cadastrar</button>
+                <script>
+                    document.getElementById("button_cadas").addEventListener("click", async (e) => {
+                        e.preventDefault();
+                    
+                        const name = document.getElementById("inputname").value;
+                        const cpf = document.getElementById("inputcpf").value;
+                        const email = document.getElementById("input_e-mail").value;
+                        const phone = document.getElementById("inputtel").value;
+                        const password = document.getElementById("inputsenha").value;
+                    
+                        try {
+                            const response = await fetch("http://localhost:3000/createUser", {
+                                method: "POST",
+                                headers: { "Content-Type": "application/json" },
+                                body: JSON.stringify({ name, cpf, email, phone, password })
+                            });
+                    
+                            if (response.status === 201) {
+                                alert("Usuário cadastrado com sucesso!");
+                                window.location.href = "login.html";
+                            } else if (response.status === 409) {
+                                alert("Usuário já existe!");
+                            } else {
+                                alert("Erro ao cadastrar usuário.");
+                            }
+                        } catch (error) {
+                            console.error("Erro:", error);
+                        }
+                    });
+                    </script>
             </div>
             <br>
         </div>

@@ -6,14 +6,16 @@
 }
 
 header{
-    height: 200px;
-    padding: 20px 0;
+    height: 110px;
+    padding: 10px 0;
 }
 
 .container{
-    display: block;
+    display: flex;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
 }
 
 .logo_home img{
@@ -25,28 +27,21 @@ header{
 
 .perfil{
     position: absolute; /* Posição fixa dentro do header */
-    margin-top: 2%;  /* Alinhado ao topo */
+    margin-top: 3%;  /* Alinhado ao topo */
     right: 0; /* Alinhado à direita */
     margin: 10px; 
 }
 
 .header-search{
     position: absolute;
-    margin-top: 3%;
-    left: 50%;
+    margin-top: 2.5%;
+    left: 55%;
     transform: translateX(-60%);
 
 }
 
 #input{
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #000;
-}
-
-#botao{
-    width: 50px;
+    width: 400px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #000;
@@ -72,6 +67,7 @@ header{
     flex-direction: row;  
     left: 0; /* Alinhado à esquerda */
     margin: 10px;
+    margin-left: -5%;
 }
 
 .cidadao{
@@ -83,7 +79,7 @@ header{
 
 .header-text{
     display: block;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
     color: #fff;
 }
@@ -92,15 +88,155 @@ header{
     margin-top: 30%;
 }
 
-.container2{
+#frase2{
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.bloco1{
     display: flex;
     flex-direction: row;
     background-color: white;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 
 .indices{
-    padding-top: 30px;
-    width: 50%;
-   justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+#Perfil2{
+    left: 0;
+    margin-left: 10%;
+    margin-top: 15%;
+    text-align: start;
+    color: #3F5FCE;
+    font-weight: bold;
+}
+
+#cidadao{
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 16%;
+    color: #F4B117;
+}
+
+#servidor{
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 16%;
+    color: #3F5FCE;
+}
+
+#empresa{
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 16%;
+    color: #3F5FCE;
+}
+
+.bloco2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px; 
+    text-decoration: none;
+    /*background-color: #2547BC;*/
+    background-color: #102A83;
+    box-shadow: 1px solid #000;
+}
+
+#orgaos{
+    margin-left: 2%;
+    margin-top: 2.5%;
+    text-align: start;
+    font-weight: bold;
+    color: #fff;
+}
+
+#saude{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: #F4B117;
+    font-weight: bold;
+}
+
+#educacao{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#administracao{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#financas{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#social{
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#transporte{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: -2%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#control_interno{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#agricultura{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    font-weight: bold;
+    color: #fff;
+}
+
+#cultura{
+    text-decoration: none;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.box{
+    margin-top: 3%;
+    border: 1px solid #000 ;
+    width: 200px;
+    border-radius: 10px;
 }
