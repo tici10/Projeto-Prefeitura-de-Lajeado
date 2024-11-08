@@ -62,6 +62,7 @@ header{
     font-weight: bold;
     background-color: #fff;
     border-radius: 10px;
+    border:1px solid #fff ;
     transform: translateX(50%);
 }
 
