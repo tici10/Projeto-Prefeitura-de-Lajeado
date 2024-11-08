@@ -10,7 +10,7 @@ header{
     padding: 10px 0;
 }
 
-.container{
+.container1{
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -140,9 +140,8 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 200px; 
+    height: 250px; 
     text-decoration: none;
-    /*background-color: #2547BC;*/
     background-color: #102A83;
     box-shadow: 1px solid #000;
 }
@@ -163,66 +162,10 @@ header{
     font-weight: bold;
 }
 
-#educacao{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: 3%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#administracao{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: 3%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#financas{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: 3%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#social{
+#Secretarias{
     text-decoration: none;
     margin-left: 2%;
-    margin-top: -2%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#transporte{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: -2%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#control_interno{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: 1.5%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#agricultura{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: 1.5%;
-    font-weight: bold;
-    color: #fff;
-}
-
-#cultura{
-    text-decoration: none;
-    margin-left: 3%;
-    margin-top: 1.5%;
+    margin-top: 3%;
     font-weight: bold;
     color: #fff;
 }
@@ -231,12 +174,38 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 300px;
+    background-color: #3F5FCE;
+    height: 400px;
 }
 
 .box{
     margin-top: 3%;
-    border: 1px solid #000 ;
-    width: 200px;
+    border: 1px solid #fff ;
+    width: 350px;
+    height: 260px;
     border-radius: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+h2{
+   margin-top: 10%; 
+
+}
+
+#carta{
+    color: #F4B117;
+    margin-top: 12%;
+    font-weight: bold;
+}
+
+button{
+    color: #F4B117;
+    margin-top: 12%;
+    width: 30%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
 }
