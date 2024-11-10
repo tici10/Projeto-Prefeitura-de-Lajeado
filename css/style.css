@@ -37,7 +37,10 @@ header{
     margin-top: 2.5%;
     left: 55%;
     transform: translateX(-60%);
+}
 
+::placeholder{
+    padding-left: 15px; /*alinhando o 'pesquise aqui' para a esqueda*/
 }
 
 #input{
@@ -97,8 +100,9 @@ header{
     display: flex;
     flex-direction: row;
     background-color: white;
-    /*justify-content: space-around;*/
-}
+    border: 1px solid #fff ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+} 
 
 .indices{
     display: flex;
@@ -143,7 +147,7 @@ header{
     height: 250px; 
     text-decoration: none;
     background-color: #102A83;
-    box-shadow: 1px solid #000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 #orgaos{
@@ -187,40 +191,66 @@ header{
     text-align: center;
     flex-wrap: wrap;
     background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 h2{
    margin-top: 10%; 
+}
 
+.small-box{
+    margin-top: 10%;
 }
 
 #carta{
+    text-decoration: none;
     color: #F4B117;
-    margin-top: 12%;
     font-weight: bold;
 }
 
 button{
     color: #F4B117;
-    margin-top: 12%;
-    width: 30%;
+    margin-top: 5%;
+    width: 40%;
     height: 30px;
     background-color: #fff;
     border-radius: 10px;
     font-weight: bold;
+    border: 1px solid #fff ;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 }
+
+a{
+    text-decoration: none;
+    color: #F4B117;
+}
+
 .bloco3{
     color: #fff;
     background-color: #102A83;
     height: 200px;
 }
 
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .info_ajuda{
     display: flex;
     flex-direction: row;
-    margin-top: -5%;
-    margin-left: 25%;
+    margin-top: -8%;
+    margin-left: 40%;
     justify-content: space-evenly;
+}
+
+#logo-info{
+    margin-top: 6%;
+}
+
+#info-line{
+    margin-top: 5.6%;
 }
 
 .ouvidoria{
@@ -229,6 +259,26 @@ button{
     color: #F4B117;
     background-color: #fff;
     width: 220px;
-    height: 150px;
+    height: 130px;
+    text-align: center;
+}
+
+.informacoes{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+}
+
+.portal{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
     text-align: center;
 }
