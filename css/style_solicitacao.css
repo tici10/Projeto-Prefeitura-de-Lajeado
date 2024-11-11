@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+header{
+    height: 110px;
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.logo_home img{
+    position: absolute; 
+    margin-top: 1%;
+    left: 0;
+    margin: 10px; 
+}
+
+.perfil{
+    position: absolute; 
+    margin-top: 3%; 
+    right: 0; 
+    margin: 10px; 
+}
+
+.header-search{
+    position: absolute;
+    margin-top: 2.5%;
+    left: 55%;
+    transform: translateX(-60%);
+
+}
+
+::placeholder{
+    padding-left: 15px;
+}
+
+#input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
