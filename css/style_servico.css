@@ -8,6 +8,7 @@
 header{
     height: 110px;
     padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .container{
@@ -32,6 +33,10 @@ header{
     transform: translateX(-50%);
 }
 
+::placeholder{
+    padding-left: 15px;
+}
+
 .perfil{
     position: absolute;
     margin-top: 2.5%;  
@@ -46,23 +51,104 @@ header{
     border: 1px solid #000;
 }
 
+.body-section{
+    background-color: #3F5FCE;
+    height: 500px;
+}
+
 .title{
-    margin-top: 3%;
+    margin-top: 8%;
     text-align: center;
+}
+
+.box{
+    display: flex;
 }
 
 .info{
     margin-left: 5%;
+    margin-top: 7%;
 }
 
 .servico{
+    display: block;
     border: 1px solid #000;
     border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
     width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#tipo_s{
+    margin-top: 10%;
 }
 
 .botoes{
     display: flex;
     flex-direction: row;
-    align-self: self-start;
+    margin-top: 5%;
+    margin-left: 30%;
+    gap: 10%;
+}
+
+.bloco{
+    color: #fff;
+    background-color: #102A83;
+    height: 200px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.info_ajuda{
+    display: flex;
+    flex-direction: row;
+    margin-top: -8%;
+    margin-left: 40%;
+    justify-content: space-evenly;
+}
+
+#logo-info{
+    margin-top: 6%;
+}
+
+#info-line{
+    margin-top: 5.6%;
+}
+
+.ouvidoria{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+}
+
+.informacoes{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+}
+
+.portal{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
 }
