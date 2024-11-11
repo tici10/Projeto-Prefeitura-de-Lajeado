@@ -53,12 +53,14 @@ header{
 
 .body-section{
     background-color: #3F5FCE;
-    height: 500px;
+    height: 600px;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
 
 .title{
-    margin-top: 8%;
     text-align: center;
+    margin: 0.5%;
 }
 
 .box{
@@ -79,7 +81,8 @@ header{
     width: 300px;
     height: 200px;
     text-align: center;
-    background-color: #fff;
+    background-color: #102048;
+    color: #fff;
 }
 
 #tipo_s{
@@ -90,8 +93,18 @@ header{
     display: flex;
     flex-direction: row;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 20%;
     gap: 10%;
+}
+
+button{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .bloco{
@@ -149,6 +162,9 @@ header{
     color: #F4B117;
     background-color: #fff;
     width: 220px;
+    height: 130px;
+    text-align: center;
+}
     height: 130px;
     text-align: center;
 }
