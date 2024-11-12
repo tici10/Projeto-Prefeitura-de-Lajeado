@@ -174,15 +174,17 @@ header{
     color: #fff;
 }
 
-.container{
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-around; /* Distribui o espaço ao redor dos itens */
     background-color: #3F5FCE;
-    height: 400px;
+    padding: 20px; /* Adicione algum padding para espaçamento interno */
 }
 
-.box{
+
+.box {
+    margin: 10px;
     margin-top: 3%;
     border: 1px solid #fff ;
     width: 350px;
