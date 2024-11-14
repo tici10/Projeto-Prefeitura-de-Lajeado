@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal</title>
-
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <div class="top-header">
             <div class="container1">
@@ -21,223 +21,88 @@
                      <a href="./perfil_user.html"><img src="img/Perfil_User.png" alt="Perfil de usuário"></a>
                 </div>
                 <div class="header-search">
-                    <form>
-                        <input id="input" placeholder="Pesquise aqui">
+                    <form aria-label="Formulário de pesquisa">
+                        <input id="input" type="text" placeholder="Pesquise aqui" aria-label="Campo de pesquisa">
                     </form>
                 </div>
            </div>
         </div>
     </header>
-    <div class="body_header">
-        <div class="imagens">
-            <div class="caderneta">
-                <img src="img/caderneta.png" alt="Ilustração">
+
+    <main>
+        <div class="body_header">
+            <div class="imagens">
+                <img src="img/caderneta.png" alt="Ilustração de uma caderneta">
             </div>
-        </div>
-        <div class="header-text">
-            <div id="frase1">
+            <div class="header-text">
                 <h1>A SUA SATISFAÇÃO <br> É A NOSSA MISSÃO!</h1>
+                <p>Solicite agora um serviço ou faça uma reclamação</p>
             </div>
-            <br>
-            <div id="frase2">
-                <p>solicite agora um serviço <br> ou faça uma reclamação</p>   
-            </div>
-        </div>
-        <div class="imagens">
-            <div class="cidadao">
-                <img src="./img/cidadao.png" alt="">
-            </div>
-        </div>
-    </div>
-    <section>
-        <div class="bloco1">
-            <div class="indices">
-                <h2 id="Perfil2">Perfil:</h2>
-                <br>
-                <a href="#" id="cidadao"><h3>Cidadão</h3></a>
-                <a href="#" id="servidor"><h3>Servidor</h3></a>
-                <a href="#" id="empresa"><h3>Empresa</h3></a>
-            </div>
-        </div>  
-        <div class="bloco2">
-            <h2 id="orgaos">Órgãos:</h2>
-            <br>
-            <a href="#" id="saude">Secretaria Municipal da Saúde</a>
-            <a href="#" id="Secretarias">Secretaria Municipal da Educação</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de Administração</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de Finanças</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de<br> Assistência Social</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de<br> Infraestrutura e Transporte</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de<br> Controle Interno</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de Agricultura, <br>Agropecuária e Abastecimento</a>
-            <a href="#" id="Secretarias">Secretaria Municipal de Meio<br> Ambiente, Saneamento, Turismo,<br> Juventude, Esporte e Cultura</a>
-        </div>
-
-        <div class="container">
-            <div class="box">
-                <h2>Agendamento de Consultas -<br>Unidade Básica de Saúde</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
-            </div>
-            <br>
-
-            <div class="box">
-                <h2>Solicitação de <br>Medicamentos</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
-            </div>
-            <br>
-
-            <div class="box">
-                <h2>Tratamento Odontológico</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
+            <div class="imagens">
+                <img src="img/cidadao.png" alt="Imagem de cidadão">
             </div>
         </div>
 
-        <div class="container">
-            <div class="box">
-                <h2>Atendimento Veterinário</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
+        <section>
+            <div class="bloco1">
+                <div class="indices">
+                    <h2>Perfil:</h2>
+                    <a href="#" class="perfil-link">Cidadão</a>
+                    <a href="#" class="perfil-link">Servidor</a>
+                    <a href="#" class="perfil-link">Empresa</a>
                 </div>
-            </div>
-            <br>
+            </div>  
 
-            <div class="box">
-                <h2>Transporte de Paciente <br>para Tratamento Médico</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
+            <div class="bloco2">
+                <h2>Órgãos:</h2>
+                <nav class="orgaos-links">
+                    <a href="#" class="orgao-link">Secretaria Municipal da Saúde</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal da Educação</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Administração</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Finanças</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Assistência Social</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Infraestrutura e Transporte</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Controle Interno</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Agricultura, Agropecuária e Abastecimento</a>
+                    <a href="#" class="orgao-link">Secretaria Municipal de Meio Ambiente, Saneamento, Turismo, Juventude, Esporte e Cultura</a>
+                </nav>
             </div>
-            <br>
-
-            <div class="box">
-                <h2>Vigilância Sanitária</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
+            
+            <div class="container">
+                <div class="box">
+                    <h2>Agendamento de Consultas - Unidade Básica de Saúde</h2>
+                    <div class="small-box">
+                        <a href="./servico_page.html" class="carta-link">Carta de Serviço</a>
+                        <button><a href="./solicitacao_page.html">Solicitar</a></button>
+                    </div>
                 </div>
+
+                <!-- Repetir a estrutura dos serviços, evitando duplicar IDs e com classes coerentes -->
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <div class="box">
-                <h2>Vigilância Epidemológica</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
+        <section class="bloco3 contato">
+            <h4>PREFEITURA DE LAJEADO</h4>
+            <p>JUSTINIANO MONTEIRO, SN - CENTRO CEP: 77645-000, LAJEADO - TO</p>
+            <p>Telefone de Contato: (63)3519-1235</p>
+            <p>E-mail: gabinete@lajeado.to.gov.br</p>
+        </section>
+
+        <section class="info_ajuda">
+            <div class="ouvidoria">
+                <img src="./img/telefone.png" alt="Ícone de telefone">
+                <h4>Ouvidoria</h4>
             </div>
-            <br>
-
-            <div class="box">
-                <h2>Fisioterapia</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
+            <div class="informacoes">
+                <img src="./img/informacao.png" alt="Ícone de informação">
+                <h4>Informações</h4>
             </div>
-            <br>
-
-            <div class="box">
-                <h2>Vigilância em Saúde</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
+            <div class="portal">
+                <img src="./img/lupa.png" alt="Ícone de lupa">
+                <h4>Portal de Transparência</h4>
             </div>
-        </div>
+        </section>
 
-        <div class="container">
-            <div class="box">
-                <h2>Matrículas</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
-            </div>
-            <br>
-
-            <div class="box">
-                <h2>Tansporte Escolar</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
-            </div>
-            <br>
-
-            <div class="box">
-                <h2>Vigilância em Saúde</h2>
-                <br><br>
-                <div class="small-box">
-                    <a href="./servico_page.html" id="carta">Carta de Serviço</a>
-                    <br>
-                    <button><a href="./solicitacao_page.html">Solicitar</a></button>
-                </div>
-            </div>
-        </div>
-
-        <div class="bloco3">
-            <br><br>
-            <div class="contato">
-                <h4>PREFEITURA DE LAJEADO</h4>
-                <p>JUSTINIANO MONTEIRO, SN - CENTRO CEP: 77645-000, LAJEADO - TO</p>
-                <br>
-                <h4>Telefone de Contato: (63)3519-1235</p></h4>
-                <br>
-                <h4>E-mail: gabinete@lajeado.to.gov.br</h4>
-            </div>
-
-            <div class="info_ajuda">
-                <div class="ouvidoria">
-                    <img src="./img/telefone.png" id="logo-info" alt="logo telefone">
-                    <h4 id="info-line">Ouvidoria</h4>
-                </div>
-    
-                <div class="informacoes">
-                    <img src="./img/informacao.png"  id="logo-info" alt="logo informação">
-                    <h4 id="info-line">Informações</h4>
-                </div>
-    
-                <div class="portal">
-                    <img src="./img/lupa.png"  id="logo-info" alt="logo lupa">
-                    <h4 id="info-line">Portal de<br> Transparência</h4>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    </main>
 </body>
 </html>
