@@ -107,64 +107,127 @@ button{
 
 }
 
-.bloco{
-    color: #fff;
-    background-color: #102A83;
-    height: 200px;
+/* Estilos básicos */
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.contato{
+/* Bloco principal */
+.bloco {
+    color: #fff;
+    background-color: #102A83;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Contato */
+.contato {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
 
-
-.info_ajuda{
+/* Info e ajuda */
+.info_ajuda {
     display: flex;
     flex-direction: row;
-    margin-top: -8%;
-    margin-left: 40%;
+    margin-top: 1%;
+    margin-left: 30%;
     justify-content: space-evenly;
+    flex-wrap: wrap; /* Para quebrar a linha em telas menores */
 }
 
-#logo-info{
+/* Ajuste do logo e linha de informação */
+#logo-info {
     margin-top: 6%;
 }
 
-#info-line{
+#info-line {
     margin-top: 5.6%;
 }
 
-.ouvidoria{
+/* Caixas de informações (Ouvidoria, Informações, Portal de Transparência) */
+.ouvidoria,
+.informacoes,
+.portal {
     border: 1px solid #fff;
     border-radius: 15px;
     color: #F4B117;
     background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
     width: 220px;
     height: 130px;
-    text-align: center;
+    transition: all 0.3s ease; /* Adicionando transição para o efeito hover */
 }
 
-.informacoes{
-    border: 1px solid #fff;
-    border-radius: 15px;
-    color: #F4B117;
-    background-color: #fff;
-    width: 220px;
-    height: 130px;
-    text-align: center;
+/* Efeito de hover nas caixas */
+.ouvidoria:hover,
+.informacoes:hover,
+.portal:hover {
+    background-color: #F4B117;
+    color: #102A83;
+    cursor: pointer;
 }
 
-.portal{
-    border: 1px solid #fff;
-    border-radius: 15px;
-    color: #F4B117;
-    background-color: #fff;
-    width: 220px;
-    height: 130px;
-    text-align: center;
+/* Responsividade para tablets (768px a 1024px) */
+@media (max-width: 1024px) {
+    .info_ajuda {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .ouvidoria,
+    .informacoes,
+    .portal {
+        width: 180px; /* Reduzir a largura para tablets */
+        height: 100px; /* Ajustar altura */
+    }
+
+    #logo-info, 
+    #info-line {
+        margin-top: 10%;
+    }
 }
-    height: 130px;
-    text-align: center;
+
+/* Responsividade para smartphones (até 767px) */
+@media (max-width: 767px) {
+    .info_ajuda {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .ouvidoria,
+    .informacoes,
+    .portal {
+        width: 90%; /* Ajuste da largura para dispositivos móveis */
+        height: auto; /* Ajustar altura */
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    #logo-info, 
+    #info-line {
+        margin-top: 10%;
+    }
+
+    .bloco {
+        height: auto;
+        padding: 15px;
+    }
 }
