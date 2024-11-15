@@ -1,78 +1,148 @@
-*{
+/* Reset de estilos e fontes */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #3F5FCE;
 }
 
-header{
-    height: 200px;
-    padding: 20px 0;
-}
-
-.logo{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-60%);
-}
-
-.header-log{
-    /*border: 1px solid black;*/
-    margin-top: 5%;
-    width: 400px; 
-    height: 500px;
-    transform: translateX(125%);
-}
-
-.container{
-    display: block;
-    box-sizing: border-box;
-    margin-top: 3%;
-    width: 400px;
-    height: 500px;
-    font-weight: bold;
-    transform: translateX(145%);
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
     color: #F0F2F8;
 }
 
-#inputcpf{
-    width: 60%;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #fff ;
-    background-color: #AEC0FF;
+/* Estilos do Header */
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-#inputsenha{
-    width: 60%;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #fff ;
-    background-color: #AEC0FF;
+.logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;  /* Limitar altura da logo */
+    margin-left: 15%;
 }
 
-#button_log{
-    display: block;
-    width: 30%;
-    height: 30px;
+/* Formulário de login */
+.header-log {
+    width: 100%;
+    max-width: 400px; /* Limitar o tamanho máximo */
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Container de campos */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Espaçamento entre os campos */
+    margin-top: 20px;
+    font-weight: bold;
+    color: #F0F2F8;
+}
+
+/* Estilo dos campos de input */
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #AEC0FF;
+    background-color: #AEC0FF;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+#button_log {
+    width: 100%;
+    height: 40px;
     color: #3F5FCE;
     font-weight: bold;
     background-color: #F0F2F8;
     border-radius: 10px;
-    border:1px solid #fff ;
-    transform: translateX(50%);
+    border: 1px solid #AEC0FF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.linked_line{
+#button_log:hover {
+    background-color: #D1D8FF;
+}
+
+/* Links abaixo do formulário */
+.linked_line {
     display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 50px;
-    transform: translateX(-1%);
-    gap: 2%;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    gap: 10px;
 }
 
-a{
+a {
     color: #F0F2F8;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .header-log {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .container {
+        gap: 10px;
+    }
+
+    input {
+        font-size: 14px;
+        height: 35px;
+    }
+
+    #button_log {
+        font-size: 14px;
+        height: 35px;
+    }
+}
+
+/* Responsividade para telas muito pequenas (máximo 480px) */
+@media (max-width: 480px) {
+    .header-log {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .container {
+        gap: 8px;
+    }
+
+    input {
+        font-size: 13px;
+        height: 30px;
+    }
+
+    #button_log {
+        font-size: 13px;
+        height: 30px;
+    }
+
+    .linked_line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    a {
+        font-size: 12px;
+    }
 }
