@@ -1,4 +1,3 @@
-/* Reset de estilos e fontes */
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +34,7 @@ header {
 
 /* Formulário */
 .header-log {
-    margin-top: 5%;
+    margin-top: 2%;
     width: 100%;
     max-width: 400px;  /* Limitar o tamanho máximo */
     height: auto;
