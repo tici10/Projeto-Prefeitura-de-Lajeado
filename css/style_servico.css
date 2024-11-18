@@ -60,7 +60,6 @@ header{
 
 .title{
     text-align: center;
-    margin: 0.5%;
 }
 
 .box{
@@ -79,7 +78,7 @@ header{
     margin-left: 30%;
     margin-top: 5%;
     width: 300px;
-    height: 200px;
+    height: 250px;
     text-align: center;
     background-color: #102048;
     color: #fff;
@@ -95,26 +94,32 @@ header{
     margin-top: 5%;
     margin-left: 20%;
     gap: 10%;
+    transition: background-color 0.3s ease;
 }
 
-button{
+.botoes button{
     background-color: #fff;
     border-radius: 10px;
     width: 90px;
-    height: 30px;
+    height: 40px;
     border: 1px solid #fff;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
-
+    transition: background-color 0.3s ease;
 }
 
-/* Estilos básicos */
-/* Estilos básicos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+.botoes button:hover{
+    background-color: #D1D8FF;
 }
+
+#button{
+    margin-top: 30%;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
 
 /* Bloco principal */
 .bloco {
@@ -140,7 +145,7 @@ button{
     display: flex;
     flex-direction: row;
     margin-top: 1%;
-    margin-left: 30%;
+    margin-left: 10px;
     justify-content: space-evenly;
     flex-wrap: wrap; /* Para quebrar a linha em telas menores */
 }
