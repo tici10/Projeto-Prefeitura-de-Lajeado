@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -19,16 +19,16 @@ header{
 }
 
 .logo_home img{
-    position: absolute; /* Posição fixa dentro do header */
-    margin-top: 1%;  /* Alinhado ao topo */
-    left: 0; /* Alinhado à esquerda */
+    position: absolute; 
+    margin-top: 1%;  
+    left: 0; 
     margin: 10px; 
 }
 
 .perfil{
-    position: absolute; /* Posição fixa dentro do header */
-    margin-top: 3%;  /* Alinhado ao topo */
-    right: 0; /* Alinhado à direita */
+    position: absolute;
+    margin-top: 3%; 
+    right: 0; 
     margin: 10px; 
 }
 
@@ -60,11 +60,6 @@ header{
     height: 80%;    
 }
 
-.imagens{
-    display: flex;
-    flex-direction: row;
-}
-
 .caderneta{
     display: flex;
     flex-direction: row;  
@@ -87,20 +82,20 @@ header{
     color: #fff;
 }
 
-#frase1{
+.header-text h1{
     margin-top: 30%;
+    font-weight: bold;
 }
 
-#frase2{
+.header-text p{
     margin-left: 20%;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .bloco1{
     display: flex;
     flex-direction: row;
     background-color: white;
-    border: 1px solid #fff ;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 } 
 
@@ -110,7 +105,7 @@ header{
     height: 100px;
 }
 
-#Perfil2{
+.indices h2{
     left: 0;
     margin-left: 10%;
     margin-top: 15%;
@@ -150,7 +145,7 @@ header{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 
-#orgaos{
+.bloco2 h2{
     margin-left: 2%;
     margin-top: 2.5%;
     text-align: start;
@@ -166,7 +161,7 @@ header{
     font-weight: bold;
 }
 
-#Secretarias{
+.orgao-link{
     text-decoration: none;
     margin-left: 2%;
     margin-top: 3%;
@@ -185,7 +180,7 @@ header{
 .box{
     margin-top: 3%;
     border: 1px solid #fff ;
-    width: 350px;
+    width: 370px;
     height: 260px;
     border-radius: 10px;
     text-align: center;
@@ -194,18 +189,12 @@ header{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-h2{
+.box h2{
    margin-top: 10%; 
 }
 
 .small-box{
     margin-top: 10%;
-}
-
-#carta{
-    text-decoration: none;
-    color: #F4B117;
-    font-weight: bold;
 }
 
 button{
@@ -220,9 +209,10 @@ button{
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 }
 
-a{
+.small-box a{
     text-decoration: none;
     color: #F4B117;
+    font-weight: bold;
 }
 
 .bloco3{
@@ -245,15 +235,15 @@ a{
     justify-content: space-evenly;
 }
 
-#logo-info{
+.info_ajuda img{
     margin-top: 6%;
 }
 
-#info-line{
+.info_ajuda h4{
     margin-top: 5.6%;
 }
 
-.ouvidoria{
+.bloco-ajuda{
     border: 1px solid #fff;
     border-radius: 15px;
     color: #F4B117;
@@ -263,22 +253,9 @@ a{
     text-align: center;
 }
 
-.informacoes{
-    border: 1px solid #fff;
-    border-radius: 15px;
-    color: #F4B117;
-    background-color: #fff;
-    width: 220px;
-    height: 130px;
-    text-align: center;
-}
 
-.portal{
-    border: 1px solid #fff;
-    border-radius: 15px;
-    color: #F4B117;
-    background-color: #fff;
-    width: 220px;
-    height: 130px;
-    text-align: center;
-}
+
+
+
+
+
