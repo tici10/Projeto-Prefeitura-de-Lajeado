@@ -44,7 +44,7 @@ header{
     margin: 10px; 
 }
 
-#input{
+input{
     width: 400px;
     height: 30px;
     border-radius: 5px;
@@ -68,7 +68,13 @@ header{
 
 .info{
     margin-left: 5%;
-    margin-top: 7%;
+    margin-top: 6%;
+}
+
+.info img{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
 }
 
 .servico{
@@ -84,8 +90,8 @@ header{
     color: #fff;
 }
 
-#tipo_s{
-    margin-top: 10%;
+.tipo_s{
+    margin-top: 6%;
 }
 
 .botoes{
@@ -111,7 +117,14 @@ header{
     background-color: #D1D8FF;
 }
 
-#button{
+.position-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    right: -50%;
+}
+
+.button{
     margin-top: 30%;
     width: 90px;
     height: 40px;
@@ -151,11 +164,11 @@ header{
 }
 
 /* Ajuste do logo e linha de informação */
-#logo-info {
+.info_ajuda img{
     margin-top: 6%;
 }
 
-#info-line {
+.info_ajuda h4 {
     margin-top: 5.6%;
 }
 
@@ -204,7 +217,7 @@ header{
     }
 
     #logo-info, 
-    #info-line {
+    .info_ajuda h4{
         margin-top: 10%;
     }
 }
