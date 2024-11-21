@@ -170,6 +170,7 @@ header{
     justify-content: space-evenly;
     background-color: #3F5FCE;
     height: 400px;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -202,6 +203,11 @@ button{
     font-weight: bold;
     border: 1px solid #fff ;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #f0f0d0;
 }
 
 .small-box a{
