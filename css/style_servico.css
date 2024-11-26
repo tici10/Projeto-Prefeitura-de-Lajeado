@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -168,3 +169,175 @@ button{
     height: 130px;
     text-align: center;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+header{
+    height: 110px;
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #fff;
+}
+
+.logo_home{
+    position: absolute; 
+    margin-top: 1%;  
+    left: 0;
+    margin: 10px; 
+}
+
+.header-search{
+    position: absolute;
+    margin-top: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+::placeholder{
+    padding-left: 15px;
+}
+
+.perfil{
+    position: absolute;
+    margin-top: 2.5%;  
+    right: 0;
+    margin: 10px; 
+}
+
+#input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.body-section{
+    background-color: #3F5FCE;
+    height: 600px;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.title{
+    text-align: center;
+    margin: 0.5%;
+}
+
+.box{
+    display: flex;
+}
+
+.info{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.servico{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: #102048;
+    color: #fff;
+}
+
+#tipo_s{
+    margin-top: 10%;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 20%;
+    gap: 10%;
+}
+
+button{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.bloco{
+    color: #fff;
+    background-color: #102A83;
+    height: 200px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.info_ajuda{
+    display: flex;
+    flex-direction: row;
+    margin-top: -8%;
+    margin-left: 40%;
+    justify-content: space-evenly;
+}
+
+#logo-info{
+    margin-top: 6%;
+}
+
+#info-line{
+    margin-top: 5.6%;
+}
+
+.ouvidoria{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+}
+
+.informacoes{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+}
+
+.portal{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+}
+    height: 130px;
+    text-align: center;
+}
+>>>>>>> origin/main
