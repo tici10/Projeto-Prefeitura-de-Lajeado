@@ -6,9 +6,8 @@
 }
 
 header{
-    height: 110px;
+    height: 115px;
     padding: 10px 0;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .container1{
@@ -38,44 +37,152 @@ header{
     margin-top: 2.5%;
     left: 55%;
     transform: translateX(-60%);
-
 }
 
 ::placeholder{
     padding-left: 15px;
 }
 
-#input{
+input{
     width: 400px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #000;
 }
 
-.body-section{
-    background-color: #fff;
-    height: 600px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+.hr1{
+    margin-top: 6%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.title{
+.body-section{
+    margin-top: 3%;
+    background-color: #fff;
+    height: 700px;
+}
+
+h1{
     text-align: center;
 }
 
-.dados1{
-    padding: 12px 0px 12px 12px;
-}
-
-hr{
-    width: 15%;
+.dados{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 6%;
 }
 
 .campo-dados{
-    display: flex;
-    flex-direction: row;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
 }
 
-.dados1 h4{
+.campo-dados p{
+    margin-left: 6%;
+    margin-top: 3%;
+    color: #383737;
+}
+
+.dados h4{
     color: #191847;
     font-weight: bold;
+}
+
+.hr2{
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.documentos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 5%;
+    gap: 6%;
+}
+
+.documentos h4{
+    color: #191847;
+    font-weight: bold;
+}
+
+.documentos button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    color: #f0c35b;
+    background-color: #fff;
+}
+
+.solicitar{
+    border: 1px solid #FBC343;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 45%;
+    background-color: #FBC343;
+    color: #fff;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bloco{
+    margin-top: 5.5%;
+    color: #fff;
+    background-color: #102A83;
+    height: 195px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+.info_ajuda{
+    display: flex;
+    flex-direction: row;
+    margin-top: -7%;
+    margin-left: 45%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info_ajuda img{
+    margin-top: 6%;
+}
+
+.info_ajuda h4{
+    margin-top: 5.6%;
+}
+
+.ouvidoria,
+.informacoes,
+.portal {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #F4B117;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 220px;
+    height: 130px;
+    transition: all 0.3s ease; /* Adicionando transição para o efeito hover */
+}
+
+.ouvidoria:hover,
+.informacoes:hover,
+.portal:hover {
+    background-color: #F4B117;
+    color: #102A83;
+    cursor: pointer;
 }
