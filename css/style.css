@@ -43,7 +43,7 @@ header{
     padding-left: 15px; /*alinhando o 'pesquise aqui' para a esqueda*/
 }
 
-#input{
+input{
     width: 400px;
     height: 30px;
     border-radius: 5px;
@@ -69,7 +69,7 @@ header{
     margin-left: -5%;
 }
 
-.cidadao{
+.logo-cidadao{
     display: flex;
     flex-direction: row;
     right: 0; /* Alinhado à direita*/
@@ -121,6 +121,11 @@ header{
     margin-left: 50%;
     margin-top: 16%;
     color: #3F5FCE;
+    transition: background-color 0.3s ease;
+}
+
+.indices a:hover{
+    color: #F4B117;
 }
 
 #cidadao{
@@ -148,7 +153,7 @@ header{
     color: #fff;
 }
 
-#saude{
+.saude{
     text-decoration: none;
     margin-left: 3%;
     margin-top: 3%;
@@ -162,6 +167,11 @@ header{
     margin-top: 3%;
     font-weight: bold;
     color: #fff;
+    transition: color 0.3s ease;
+}
+
+.orgao-link:hover{
+    color: #F4B117;
 }
 
 .container{
