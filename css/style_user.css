@@ -2,52 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
-    height: 110px;
+    height: 120px;
     padding: 10px 0;
 }
 
-.container{
+.container1{
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     background-color: #fff;
 }
 
-.logo_home{
+.logo_home img{
     position: absolute; 
     margin-top: 1%;  
-    left: 0;
+    left: 0; 
+    margin: 10px; 
+}
+
+.perfil{
+    position: absolute;
+    margin-top: 3%; 
+    right: 0; 
     margin: 10px; 
 }
 
 .header-search{
     position: absolute;
-    margin-top: 2%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 2.5%;
+    left: 55%;
+    transform: translateX(-60%);
 }
 
-.perfil{
-    position: absolute;
-    margin-top: 3%;  
-    right: 0;
-    margin: 10px; 
+::placeholder{
+    padding-left: 15px; /*alinhando o 'pesquise aqui' para a esqueda*/
 }
 
-#input{
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #000;
-}
-
-#botao{
-    width: 50px;
+input{
+    width: 400px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #000;
@@ -57,204 +54,24 @@ header{
     background-color: #3F5FCE;
 }
 
-.dados{
-    position: absolute;
-    padding: 20%;
-    margin-top: -15%;
-    left: -10%;
-}
-
-.frase-dados{
-    color: #fff;
-}
-
 .informacoes{
     display: flex;
     flex-direction: row;
-    padding: 10%;
-    margin-left: 400px;
-    margin-top: -1%;
 }
 
-#titulo{
-    font-weight: bold;
+.dados{
+   margin-top: 3%;
+   margin-left: 10%;
+}
+
+.dados h1{
     color: #fff;
 }
 
-.nome-comp{
-    margin-top: -2%;
-}
-
-#nome{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid #fff ;
-    background-color: #FAF3F3;
-    color: #76706E;
-    text-align: center;
-}
-
-.e-mail{
-    margin-left: 100px;
-    margin-top: -2%;
-}
-
-#email{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid #fff ;
-    background-color: #FAF3F3;
-    color: #76706E;
-    text-align: center;
-}
-
-.cpf{
-    margin-top: 9%;
-    margin-left: -500px;
-}
-
-#cpf-number{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid #fff ;
-    background-color: #FAF3F3;
-    color: #76706E;
-    text-align: center;
-}
-
-.telefone{
-    margin-top: 9%;
-    margin-left: 100px;
-}
-
-#tel{
-    width: 200px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid #fff ;
-    background-color: #FAF3F3;
-    color: #76706E;
-    text-align: center;
-}
-
-.editar-p{
-    margin-top: 18%;
-    margin-left: -300px;
-}
-
-#botao2{
-    width: 110px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #fff;
-}
-
-.solic{
+.box1{
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+    gap: 10%;
 }
-
-.box1{
-    border: 1px solid #fff ;
-    width: 390px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-left: 50px;
-}
-
-.protocol1{
-    display: block;
-    margin-top: 4%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.protocol2{
-    display: block;
-    margin-top: 2%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.protocol3{
-    display: block;
-    margin-top: 2%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.protocol4{
-    display: block;
-    margin-top: 2%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.box2{
-    border: 1px solid #fff ;
-    width: 390px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-left: 500px;
-
-}
-
-.analise1{
-    display: block;
-    margin-top: 4%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.analise2{
-    display: block;
-    margin-top: 4%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.analise3{
-    display: block;
-    margin-top: 4%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.analise4{
-    display: block;
-    margin-top: 4%;
-    border: 1px solid #000;
-    width: 350px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
