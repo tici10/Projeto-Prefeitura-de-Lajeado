@@ -59,19 +59,59 @@ input{
     flex-direction: row;
 }
 
-.dados{
+.titulo{
    margin-top: 3%;
    margin-left: 10%;
 }
 
-.dados h1{
+.titulo h1{
     color: #fff;
 }
 
 .box1{
     display: flex;
     flex-direction: row;
+    width: 295px;
     margin-top: 5%;
     margin-left: 10%;
     gap: 10%;
+    color: #fff;
 }
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 12%;
+    gap: 7%;
+    color: #fff;
+}
+
+.dados{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
+}
+
+.dados p{
+    margin-left: 6%;
+    margin-top: 2.5%;
+    color: #383737;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
