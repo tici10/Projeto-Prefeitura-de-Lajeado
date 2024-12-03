@@ -34,7 +34,7 @@ header {
 
 /* Formulário */
 .header-log {
-    margin-top: 2%;
+    margin-top: 5%;
     width: 100%;
     max-width: 400px;  /* Limitar o tamanho máximo */
     height: auto;
@@ -61,8 +61,13 @@ input {
     font-size: 16px;
 }
 
+.button_cadas a{
+    text-decoration: none;
+    color: #3F5FCE;
+    background-color: #fff;
+}
 /* Estilo do botão */
-#button_cadas {
+.button_cadas {
     display: block;
     width: 100%;
     height: 40px;
@@ -75,7 +80,7 @@ input {
     transition: background-color 0.3s ease;
 }
 
-#button_cadas:hover {
+.button_cadas:hover {
     background-color: #D1D8FF;
 }
 
