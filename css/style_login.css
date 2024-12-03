@@ -74,6 +74,12 @@ input {
     background-color: #D1D8FF;
 }
 
+.button_log_user a{
+    text-decoration: none;
+    color: #3F5FCE;
+    background-color: #fff;
+}
+
 .linked_line {
     display: flex;
     justify-content: space-between;
