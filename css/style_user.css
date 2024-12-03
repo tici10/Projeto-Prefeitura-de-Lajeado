@@ -79,19 +79,21 @@ input{
 }
 
 .box2{
+    position: block;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     margin-top: 12%;
+    transform: translateX(-67%);
     gap: 7%;
     color: #fff;
 }
 
 .dados{
-    border: 1px solid #000;
+    border: 1px solid #e8f5f5;
     border-radius: 5px;
     width: 220px;
     height: 30px;
+    background-color: #fff;
 }
 
 .dados p{
@@ -100,18 +102,93 @@ input{
     color: #383737;
 }
 
+button{
+    position: block;
+    margin-top: 18%;
+    height: 40px;
+    width: 140px;
+    transform: translateX(-390%);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #F4B117;
+    font-weight: bold;
+}
+
+hr{
+    width: 95%;
+    margin-left: 2%;
+    font-weight: bolder;
+}
+
+.solicitacoes h1{
+    margin-top: 2%;
+    margin-left: 4%;
+    color: #fff;
+}
+
+.categorias{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.body-containers{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container{
+    border: 1px solid #dbd6d6;
+    border-radius: 10px;
+    height: 880px;
+    width: 460px;
+    background-color: #fff;
+}
+
+.container p{
+    margin-top: 4%;
+    margin-left: 2%;
+}
 
 
+.protocolo{
+    margin-top: 8%;
+    margin-left: 6%;
+    border: 1px solid #dad4d4;
+    background-color: #b8b3b3;
+    border-radius: 10px;
+    width: 400px;
+    height: 160px;
+    font-size: 14px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
 
+.analise{
+    margin-top: 8%;
+    margin-left: 6%;
+    border: 1px solid #f5e3b9;
+    background-color: #f5dca3;
+    border-radius: 10px;
+    width: 400px;
+    height: 160px;
+    font-size: 14px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.concluidos{
+    margin-top: 8%;
+    margin-left: 6%;
+    border: 1px solid #bdecce;
+    background-color: #a1e7bb;
+    border-radius: 10px;
+    width: 400px;
+    height: 160px;
+    font-size: 14px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
