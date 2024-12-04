@@ -27,3 +27,10 @@ A fim de melhor organizar a estrutura para o projeto, foi elaborada a Estrutura 
 
 + A fase de iniciação do projeto é dedicada a entender o contexto e a problemática do projeto a fim de as necessidades exigidas para o desenvolvimento do portal de serviços sejam.
 + A fase de planejamento é onde as atividades necessárias para o desenvolvimento do projeto serão elaboradas no documento de “Plano de Ação”. Bem como, será realizada a documentação dos requisitos necessários ao portal de serviços de acordo com o entendimento das exigências para a execução do projeto.
+
+>### Configuração do Projeto
+
++ Para o desenvolvimento do site utilizámos: HTML, CSS, JavaScript e TypeScript
++ Front-End: Começamos nosso site pelo Front-end, utilizámos HTML puro para o corpo, e o estilo CSS. 
++ Back-End: O back-end foi implementado para o registro e armazenamento das  credenciais de acesso do usuário, também implementado para filtragem de pesquisa nos seviços  disponíveis. 
+
