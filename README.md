@@ -34,3 +34,6 @@ A fim de melhor organizar a estrutura para o projeto, foi elaborada a Estrutura 
 + Front-End: Começamos nosso site pelo Front-end, utilizámos HTML puro para o corpo, e o estilo CSS. 
 + Back-End: O back-end foi implementado para o registro e armazenamento das  credenciais de acesso do usuário, também implementado para filtragem de pesquisa nos seviços  disponíveis. 
 
+Pré-visualização das telas desenvolvidas
+
+
