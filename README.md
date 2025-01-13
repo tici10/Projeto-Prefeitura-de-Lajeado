@@ -36,6 +36,6 @@ A fim de melhor organizar a estrutura para o projeto, foi elaborada a Estrutura 
 
 > Projeto de telas 
 
-
+[Projeto de telas - UX](https://github.com/tici10/Projeto-Prefeitura-de-Lajeado/tree/8f72878525f668ca4a5854cca39c98ae223fee3d/Projeto%20de%20telas)
 
 
